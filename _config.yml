@@ -8,8 +8,8 @@ description: |
 owner: Blue Canarh # or company name
 first_published: 2019 # if migrating another site, the year of your first publish
 email: montegnies.dennis@gmail.com
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://faun88.github.io/BlueCanary/" # the base hostname & protocol for your site
+baseurl: "/BlueCanary" # the subpath of your site, e.g. /blog
+url: "https://faun88.github.io/BlueCanary" # the base hostname & protocol for your site
 social:
   twitter: https://twitter.com/zerodaydotio
   github: https://github.com/faun88
