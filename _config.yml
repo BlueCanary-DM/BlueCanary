@@ -3,8 +3,8 @@
 
 # Site settings
 title: Blue Canary
-description: 
-owner: Blue Canarh # or company name
+description: Cyber Security
+owner: Blue Canary # or company name
 first_published: 2019 # if migrating another site, the year of your first publish
 email: montegnies.dennis@gmail.com
 baseurl: "/BlueCanary" # the subpath of your site, e.g. /blog
