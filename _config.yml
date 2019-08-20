@@ -3,7 +3,7 @@
 
 # Site settings
 title: Blue Canary
-description: Cyber Security
+description: Belgian Cyber Security Firm
 owner: Blue Canary # or company name
 first_published: 2019 # if migrating another site, the year of your first publish
 email: montegnies.dennis@gmail.com
@@ -13,7 +13,7 @@ social:
   twitter: https://twitter.com/zerodaydotio
   github: https://github.com/faun88
   linkedin-square: https://linkedin.com/in/dennis-m-42b58926
-  #email: /contact/
+  email: /contact/
   #flickr:
   #instagram:
   #youtube-square:
