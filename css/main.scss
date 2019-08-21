@@ -337,13 +337,14 @@ $baseurl: '{{ site.baseurl }}/images';
 
 	input[type="text"],
 	input[type="password"],
+	input[type="name"],
 	input[type="email"],
 	select {
 		height: _size(element-height);
 	}
 
 	textarea {
-		padding: 0.75em 1em;
+		padding: 3.5em 1em;
 	}
 
 	input[type="checkbox"],
@@ -1254,7 +1255,7 @@ $baseurl: '{{ site.baseurl }}/images';
 		}
 
 		&.style4 {
-			background-color: transparent;
+			background-color: #04121a57;
 		}
 
 		&.style5 {
