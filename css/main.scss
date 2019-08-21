@@ -501,7 +501,7 @@ $baseurl: '{{ site.baseurl }}/images';
 		&.style3 {
 			color: _palette(accent4, bg);
 		}
-wra
+	}
 
 /* Image */
 
@@ -1257,10 +1257,6 @@ wra
 
 		&.style5 {
 			@include wrapper(accent7);
-		}
-		
-		&.style6 {
-			background-color: #ffffff78;
 		}
 
 		@include breakpoint(medium) {
