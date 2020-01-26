@@ -2,13 +2,14 @@
 #
 
 # Site settings
-title: Blue Canary
-description: Belgian Cyber Security Firm
+title: Blue Canary - Belgian Cyber Security firm
+description: Blue Canary focusses on assisting businesses in Belgium to gain insight and increasing their current cyber security maturity.
 owner: Blue Canary # or company name
 first_published: 2019 # if migrating another site, the year of your first publish
-email: montegnies.dennis@gmail.com
+email: dennis@bluecanary.be
 baseurl: "/" # the subpath of your site, e.g. /blog
-url: "http://bluecanary.be" # the base hostname & protocol for your site
+url: "https://wwww.bluecanary.be" # the base hostname & protocol for your site
+logo: https://raw.githubusercontent.com/faun88/BlueCanary/master/images/logo_transparant.png
 social:
   twitter: https://twitter.com/zerodaydotio
   github: https://github.com/faun88
