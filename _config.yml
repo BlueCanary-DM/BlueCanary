@@ -5,11 +5,12 @@
 title: Blue Canary
 tagline: Belgian Cyber Security Firm
 description: Blue Canary focusses on assisting businesses in Belgium to gain insight and increasing their current cyber security maturity.
+og:description: Blue Canary focusses on assisting businesses in Belgium to gain insight and increasing their current cyber security maturity.
 owner: Blue Canary # or company name
 first_published: 2019 # if migrating another site, the year of your first publish
 email: dennis@bluecanary.be
 baseurl: "/" # the subpath of your site, e.g. /blog
-url: "https://wwww.bluecanary.be" # the base hostname & protocol for your site
+url: "https://www.bluecanary.be" # the base hostname & protocol for your site
 logo: https://raw.githubusercontent.com/faun88/BlueCanary/master/images/logo_transparant.png
 social:
   twitter: https://twitter.com/zerodaydotio
