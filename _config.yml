@@ -9,7 +9,7 @@ og:description: Blue Canary focusses on assisting businesses in Belgium to gain 
 owner: Blue Canary # or company name
 first_published: 2019 # if migrating another site, the year of your first publish
 email: dennis@bluecanary.be
-baseurl: "/" # the subpath of your site, e.g. /blog
+#baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://www.bluecanary.be" # the base hostname & protocol for your site
 logo: https://raw.githubusercontent.com/faun88/BlueCanary/master/images/logo_transparant.png
 social:
@@ -55,3 +55,5 @@ social:
 markdown: kramdown
 #sass:
 #  style: compressed
+plugins:
+  - jekyll-seo-tag
