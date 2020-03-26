@@ -4,8 +4,8 @@
 # Site settings
 title: Blue Canary
 tagline: IT Hardware & Advies
-#description: Blue Canary focusses on assisting businesses in Belgium to gain insight and increasing their current cyber security maturity.
-#og:description: Blue Canary focusses on assisting businesses in Belgium to gain insight and increasing their current cyber security maturity.
+description: Blue Canary is een specialist inzake verkoop, herstel en advies inzake IT hardware en beveiliging.
+og:description: Blue Canary is een specialist inzake verkoop, herstel en advies inzake IT hardware en beveiliging.
 owner: Blue Canary # or company name
 first_published: 2019 # if migrating another site, the year of your first publish
 email: dennis@bluecanary.be
