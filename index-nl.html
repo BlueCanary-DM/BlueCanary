@@ -1,57 +1,42 @@
 ---
 layout: landing
+Title: Blue Canary
 ---
 				<!-- Banner -->
 					<section id="banner">
 						<div class="inner">
 							<h2>{{ site.title }}</h2>
-							<p>{{ site.description | markdownify }}</p>
+							<p>{{ site.tagline | markdownify }}</p>
 						</div>
-						<a href="#one" class="more scrolly">Zie meer</a>
+						<a href="#one" class="more scrolly"></a>
 					</section>
 
 				<!-- One -->
-					<section id="one" class="wrapper style1 special">
-						<div class="inner">
-							<header class="major">
-								<h2>Het is niet de vraag of een cyberaanval zal plaatsvinden maar wanneer.</h2>
-								<p>Net zoals kanaries vroeger werden gebruikt om gevaar te detecteren in de koolmijnen is Blue Canary uw partner om uw IT omgeving te beschermen tegen cyberaanvallen. </p>
-							</header>
-						</div>
-					</section>
+
 				<!-- Two -->
 					<section id="three" class="wrapper style3 special">
 						<div class="inner">
 							<header class="major">
 								<h2>Onze diensten</h2>
-								<p> Wij focusen op kleine en middelgrote ondernemingen in België om
-									Onze missie is om kleine en middelgrote ondernemingen (KMO's) in België te helpen om inzicht in hun weerbaarheid tegen cyberaanvallen en waar nodig deze te verbeteren. </p>
+								<p>Blue Canary focusses on assisting medium-sized businesses in Belgium to gain insight and increasing their current cyber security maturity. We like to offer our past experiences in high-secure and hardened environments without the premium pricetag.</p>
 								<br>
 							</header>
 							<ul class="features">
-								<li class="icon fa-check-square-o">
-									<h3>Cyber Security check-up</h3>
-									<p> We meten de weerbaarheid van uw IT systemen en applicaties tegen de meest voorkomende cyberaanvallen (bv. ransomware) en hoe deze kan worden verbetered.</p>
-								</li>
 								<li class="icon fa-code">
-									<h3>Penetration testing</h3>
-									<p> Gedurende een aantal dagen gaan we vanuit het standpunt van zowel een interne als externe aanvaller trachten binnen te breken in uw IT omgeving en applicaties. Penetration testing van specifieke applicaties is ook mogelijk.</p>
+									<h3>Verkoop IT hardware</h3>
+									<p>We verkopen IT hardware op maat aan zowel particuleren als ondernemingen.</p>
 								</li>
-								<li class="icon fa-fire">
-									<h3>Incident response & disaster recovery</h3>
-									<p>We helpen je om de juiste procedures uit te werken om de schade te beperken in geval een (security) incident zich voordoet</p>
-								</li>
-								<li class="icon fa-envelope">
-									<h3>Social Engineering</h3>
-									<p>Om je medewerkers te trainen in het herkennen van valse e-mails voorzien we een awareness campagne, eventueel gecombineerd met een gesimuleerde phishing aanval.</p>
-								</li>
-								<li class="icon fa-unlock-alt">
-									<h3>Anti-ransomware prevention</h3>
-									<p>Het aantal ransomware aanvallen zijn sterk gestegen dit jaar. Bedrijven werden weken gegijzeld en werden verplicht om hoge bedragen 'losgeld' in bitcoins te betalen. Hoewel het het vaak erg complex is om te herstellen van een ransomware aanvallen kunnen wij je helpen om stappen te nemen om je te beschermen en/of de impact van een aanval drastisch te verlagen. </p>
+								<li class="icon fa-check-square-o">
+									<h3>Reparatie IT hardware</h3>
+									<p>Wij zijn gespecialiseerd in het herstellen van verschillende soorten IT hardware zoals laptops, harde schijven, servers,..</p>
 								</li>
 								<li class="icon fa-shield">
+									<h3>Advies op maat</h3>
+									<p>Blue Canary geeft advies op maat inzake hardware, netwerk en beveiliging. </p>
+								</li>
+								<li class="icon fa-unlock-alt">
 									<h3>CISO as a service</h3>
-									<p> We begrijpen dat kleine en middelgrote bedrijven (KMO's) niet altijd de nood of de middelen hebben om een full-time security officer (CISO) in dienst te nemen. Onze CISO-as-a-service dienst is een kost-efficiënte oplossing waarbij je snel een beroep kunt doen op een ervaren security officer voor een aantal dagen per maand om uw organisatie te helpen beschermen tegen cyber security risico's en incidenten. </p>
+									<p>Veel bedrijven hebben geen budget of tijd om een full-time CISO aan boord te hebben. Onze CISO-as-a-service dienst is een kosten effectieve oplossing om een gecertifieerde CISO aan boord te hebben in uw organisatie voor een aantal dagen per week.
 								</li>
 							</ul>
 						</div>
@@ -60,19 +45,13 @@ layout: landing
 				<!-- Contact form  -->
 	<section id="one" class="wrapper style4 special">
 	<div class="inner">
-  <h3>Contact us</h3>
-<p> Je wilt weten hoe we de weerbaarheid tegen cyberaanvallen van jouw bedrijf kunnen verhogen of je wilt het gewoon even hebben over cyber security? Contacteer ons via het formulier hieronder.</p>
-<script type="text/javascript" src="https://odamae.io/form/js/dark.js"></script>
-<form id="odamae-contact-form" method="post" style="display: none">
-    <div class="odamae-row">
-		<input type="text" class="odamae-input" name="name" id="name" value="" placeholder="Naam" />
-		<input type="text" class="odamae-input" name="contact" id="contact" value="" placeholder="Email" />
-		<textarea class="odamae-textarea" name="message" id="message" placeholder="Uw bericht" rows="6"></textarea>
-    </div>
-    <div class="odamae-row visual-captcha"></div>
-    <div class="odamae-row actions">
-		<input type="submit" class="odamae-button odamae-submit" value="Send Message" onclick="odamaeSubmit(this)" data-apikey="odamae.io_bed947bb5b9bbae4f4ebd04208b2232d_cdb1" />
-    </div>
+  <h3>Contact</h3>
+<p> Je hebt interesse in één van onze diensten? Kom gerust langs voor een kop koffie om uw noden te bespreken.</p>
+	<form method="POST" action="https://formspree.io/xpzwzrpz">
+	<input type="name" name="name" placeholder="Your name">
+	<input type="email" name="email" placeholder="Your email">
+  <textarea name="message" placeholder="Your message"></textarea>
+  <button type="submit">Send</button>
 </form>
 </div>
 </section>
