@@ -3,9 +3,9 @@
 
 # Site settings
 title: Blue Canary
-tagline: Belgian Cyber Security Firm
-description: Blue Canary focusses on assisting businesses in Belgium to gain insight and increasing their current cyber security maturity.
-og:description: Blue Canary focusses on assisting businesses in Belgium to gain insight and increasing their current cyber security maturity.
+tagline: IT Hardware & Advies
+description: Blue Canary is een specialist inzake verkoop, herstel en advies inzake IT hardware en beveiliging.
+og:description: Blue Canary is een specialist inzake verkoop, herstel en advies inzake IT hardware en beveiliging.
 owner: Blue Canary # or company name
 first_published: 2019 # if migrating another site, the year of your first publish
 email: dennis@bluecanary.be
@@ -16,7 +16,7 @@ social:
   twitter: https://twitter.com/zerodaydotio
   github: https://github.com/faun88
   linkedin-square: https://linkedin.com/in/dennis-m-42b58926
-  email: mailto:montegnies.dennis@gmail.com
+  email: mailto:dennis@bluecanary.be
   #flickr:
   #instagram:
   #youtube-square:
